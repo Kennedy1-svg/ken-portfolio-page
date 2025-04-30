@@ -14,7 +14,7 @@ const portfolioLists = [
     image: '/Screenshot 2025-04-29 180027.png',
     stack: 'Frontend',
     description:
-      'Built and contributed to the admin panel/back office site that manages and stores data to this website',
+      "Built features that allowed administrators to easily manage and store the website's content and data, which was crucial for the site's functionality",
     link: 'https://walurecapital.com/'
   },
   {
