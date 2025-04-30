@@ -18,7 +18,7 @@ let display = () => {
 
 <template>
   <div class="pb-14">
-    <header class="bg-black border-b border-gray-700 fixed w-full z-10">
+    <header class="bg-darkBlue border-b border-gray-700 fixed w-full z-10">
       <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <!-- lg+ -->
         <nav class="flex items-center justify-between h-16 lg:h-20">
@@ -31,7 +31,7 @@ let display = () => {
           <button
             @click="display"
             type="button"
-            class="inline-flex p-2 text-white transition-all duration-200 rounded-md md:hidden focus:bg-gray-800 hover:bg-gray-800"
+            class="inline-flex p-2 text-white transition-all duration-200 rounded-md md:hidden focus:bg-[#669BBC] hover:bg-[#669BBC]"
           >
             <svg
               class="w-6 h-6"
@@ -71,7 +71,7 @@ let display = () => {
               title=""
               class="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
-              Skills</a
+              Stacks</a
             >
 
             <a
@@ -87,8 +87,10 @@ let display = () => {
         <!-- xs to lg -->
         <nav v-if="showNav" class="min-h-screen px-4 py-10 text-center bg-black relative md:hidden">
           <button
+            @click="display"
             type="button"
-            class="inline-flex p-2 text-white transition-all duration-200 rounded-md focus:bg-gray-800 hover:bg-gray-800"
+            aria-label="Toggle Navigation"
+            class="inline-flex p-2 text-white transition-all duration-200 rounded-md md:hidden focus:bg-[#669BBC] hover:bg-[#669BBC]"
           >
             <div>
               <SvgIcons name="kennedy-icon" />
@@ -109,15 +111,19 @@ let display = () => {
         </nav>
       </div>
     </header>
-    <main class="md:flex justify-around items-center border">
-      <div class="order-first rounded-lg md:w-2/5 md:order-last md:mt-20">
-        <img src="/My Picture.jpg" alt="my-picture" />
+    <main class="md:flex justify-around items-center pt-28 md:pt-32 px-4 text-center md:text-left">
+      <div class="order-first rounded-lg md:w-2/5 md:order-last mb-10 md:mb-0">
+        <img
+          src="/editedKode.jpg"
+          alt="Portrait of Chimdinma Kennedy Ohia"
+          class="rounded-lg shadow-lg w-full max-w-sm mx-auto md:mx-0"
+        />
       </div>
-      <div v-if="showName">
-        <div class="my-5 pl-5 md:pl-0">
-          <p class="my-3">Hi, I am</p>
-          <p class="text-4xl font-bold mb-3">Chimdinma Kennedy Ohia</p>
-          <p class="text-xl">Software Developer</p>
+      <div v-if="showName" class="md:w-1/2">
+        <div class="mb-5">
+          <p class="text-lg">Hi, I am</p>
+          <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Chimdinma Kennedy Ohia</h1>
+          <p class="text-2xl text-primary mt-4">Software Developer</p>
         </div>
       </div>
     </main>

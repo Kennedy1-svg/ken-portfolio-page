@@ -20,22 +20,25 @@ const data = [
   }
 ]
 </script>
-
 <template>
-  <div class="border p-10">
+  <div class="border rounded-2xl p-10 shadow-md">
     <Headers topic="About" />
-    <p class="text-center text-md">
-      My name is Chimdinma Kennedy Ohia. I am a software developer, as well as a tech instructor. I
-      build and contribute to web projects.
+    <p class="text-center text-lg max-w-3xl mx-auto leading-relaxed text-gray-700">
+      My name is Chimdinma Kennedy Ohia. I am a software developer and tech instructor. I build and
+      contribute to web projects.
     </p>
-    <p class="text-center text-xl my-6">| Explore |</p>
-    <div class="flex justify-center my-10">
+    <p class="text-center text-xl font-semibold my-8 text-gray-700">| Explore |</p>
+    <div class="flex justify-center my-6">
       <SvgIcons name="seperator" />
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 justify-between">
-      <div class="mx-3 p-2" v-for="item in data" :key="item.title">
-        <h1 class="text-2xl my-3 font-bold text-center md:text-left">{{ item.title }}</h1>
-        <p class="text-md text-justify md:text-left">{{ item.description }}</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+      <div
+        v-for="item in data"
+        :key="item.title"
+        class="bg-white rounded-xl p-6 shadow hover:shadow-lg transition-all"
+      >
+        <h1 class="text-2xl font-bold text-gray-800 mb-2">{{ item.title }}</h1>
+        <p class="text-gray-600 text-justify">{{ item.description }}</p>
       </div>
     </div>
   </div>

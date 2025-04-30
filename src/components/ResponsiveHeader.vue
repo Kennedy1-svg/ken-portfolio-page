@@ -14,7 +14,7 @@ let display = () => {
 
 <template>
   <div class="pb-14 mb-6">
-    <header class="bg-black border-b border-gray-700 fixed w-full z-10">
+    <header class="bg-darkBlue border-b border-gray-700 fixed w-full z-10">
       <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <!-- lg+ -->
         <nav class="flex items-center justify-between h-16 lg:h-20">

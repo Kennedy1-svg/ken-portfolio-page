@@ -4,188 +4,133 @@ import SvgIcons from './SvgIcons.vue'
 </script>
 
 <template>
-  <section class="py-10 bg-gray-50 sm:pt-16 lg:pt-24">
-    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-      <div class="grid grid-cols-2 md:col-span-3 lg:grid-cols-5 gap-y-16 gap-x-12">
-        <div class="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
-          <SvgIcons name="kennedy-icon" />
-          <!-- <img
-            class="w-auto h-9"
-            src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg"
-            alt=""
-          /> -->
+  <footer class="py-12 px-4 sm:px-6 lg:px-8 mx-auto">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Social Media Icons -->
+      <div>
+        <h2 class="text-sm font-semibold tracking-widest text-gray-400 uppercase mb-4 text-center">
+          Follow Me
+        </h2>
+        <div class="flex space-x-6 justify-center">
+          <!-- GitHub -->
+          <a
+            href="https://twitter.com/KennedyOhia"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter"
+            class="text-gray-400 hover:text-[#1DA1F2] transition-colors"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <g fill="currentColor">
+                <path d="M1 2h2.5L3.5 2h-2.5zM5.5 2h2.5L7.2 2h-2.5z">
+                  <animate
+                    fill="freeze"
+                    attributeName="d"
+                    dur="0.4s"
+                    values="M1 2h2.5L3.5 2h-2.5zM5.5 2h2.5L7.2 2h-2.5z;M1 2h2.5L18.5 22h-2.5zM5.5 2h2.5L23 22h-2.5z"
+                  />
+                </path>
+                <path d="M3 2h5v0h-5zM16 22h5v0h-5z">
+                  <animate
+                    fill="freeze"
+                    attributeName="d"
+                    begin="0.4s"
+                    dur="0.4s"
+                    values="M3 2h5v0h-5zM16 22h5v0h-5z;M3 2h5v2h-5zM16 22h5v-2h-5z"
+                  />
+                </path>
+                <path d="M18.5 2h3.5L22 2h-3.5z">
+                  <animate
+                    fill="freeze"
+                    attributeName="d"
+                    begin="0.5s"
+                    dur="0.4s"
+                    values="M18.5 2h3.5L22 2h-3.5z;M18.5 2h3.5L5 22h-3.5z"
+                  />
+                </path>
+              </g>
+            </svg>
+          </a>
+          <a
+            href="https://wa.me/2349096414674"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+            class="text-gray-400 hover:text-green-500 transition-colors"
+          >
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+              <path
+                d="M16.003 3.2c-7.054 0-12.8 5.746-12.8 12.8 0 2.256.592 4.458 1.712 6.404l-1.896 6.926 7.125-1.865a12.752 12.752 0 0 0 5.859 1.47h.001c7.054 0 12.8-5.746 12.8-12.8S23.057 3.2 16.003 3.2zm0 23.2a10.41 10.41 0 0 1-5.297-1.445l-.38-.223-4.228 1.106 1.125-4.1-.246-.422a10.44 10.44 0 0 1-1.598-5.606c0-5.758 4.688-10.446 10.446-10.446 5.758 0 10.446 4.688 10.446 10.446s-4.688 10.446-10.446 10.446zm5.822-7.765c-.316-.158-1.869-.922-2.159-1.028-.29-.106-.502-.158-.715.158s-.822 1.028-1.009 1.243c-.185.211-.368.237-.683.079s-1.335-.492-2.545-1.57c-.94-.837-1.573-1.87-1.755-2.186s-.02-.487.14-.645c.145-.145.316-.368.474-.553.158-.185.211-.316.316-.527.105-.211.053-.395-.026-.553s-.714-1.722-.978-2.36c-.257-.617-.518-.533-.714-.544-.184-.011-.395-.013-.605-.013s-.553.079-.843.395c-.29.316-1.106 1.08-1.106 2.636 0 1.555 1.132 3.06 1.29 3.273.158.211 2.228 3.4 5.399 4.77.754.325 1.342.518 1.8.662.755.24 1.44.206 1.982.125.605-.09 1.869-.76 2.134-1.494.263-.734.263-1.362.184-1.494-.079-.132-.29-.211-.605-.368z"
+              />
+            </svg>
+          </a>
 
-          <p class="text-base leading-relaxed text-gray-600 mt-7">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-            consequat duis enim velit mollit.
-          </p>
-
-          <ul class="flex items-center space-x-3 mt-9">
-            <li>
-              <a
-                href="#"
-                title=""
-                class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
-              >
-                <svg
-                  class="w-4 h-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"
-                  ></path>
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                title=""
-                class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
-              >
-                <svg
-                  class="w-4 h-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"
-                  ></path>
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                title=""
-                class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
-              >
-                <svg
-                  class="w-4 h-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"
-                  ></path>
-                  <circle cx="16.806" cy="7.207" r="1.078"></circle>
-                  <path
-                    d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"
-                  ></path>
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                title=""
-                class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
-              >
-                <svg
-                  class="w-4 h-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"
-                  ></path>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          <!-- Instagram -->
+          <a
+            href="https://instagram.com/_kebuka_"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            class="text-gray-400 hover:text-gray-600 transition-colors"
+          >
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5A4.25 4.25 0 0020.5 16.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zm9.75 2.25a.75.75 0 011.5 0v1a.75.75 0 01-1.5 0v-1zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7z"
+              />
+            </svg>
+          </a>
         </div>
+      </div>
 
-        <div>
-          <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">
-            External Links
-          </p>
-
-          <ul class="mt-6 space-y-4">
+      <!-- External Links -->
+      <div>
+        <h2 class="text-sm font-semibold tracking-widest text-gray-400 uppercase mb-4 text-center">
+          External Links
+        </h2>
+        <nav aria-label="External navigation">
+          <ul class="space-y-3 text-center">
             <li>
               <a
                 href="https://github.com/Kennedy1-svg"
-                title=""
-                class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                class="text-gray-700 hover:text-[#669BBC] transition"
               >
-                Github
+                GitHub
               </a>
             </li>
-
             <li>
               <a
-                href="#"
-                title=""
-                class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                href="https://www.linkedin.com/in/chimdinma-kennedy-ohia/"
+                class="text-gray-700 hover:text-[#669BBC] transition"
               >
                 LinkedIn
               </a>
             </li>
-
             <li>
               <a
-                href="#"
-                title=""
-                class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                href="https://medium.com/@kennyohia"
+                class="text-gray-700 hover:text-[#669BBC] transition"
               >
                 Medium
               </a>
             </li>
-
             <li>
               <a
                 href="https://docs.google.com/document/d/1vTKIC8CP1pWmwp58ImEuHhOo4V8Nzl-hX8L8B_z61hQ/edit?usp=sharing"
-                title=""
-                class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                class="text-gray-700 hover:text-[#669BBC] transition"
               >
                 View Resume
               </a>
             </li>
           </ul>
-        </div>
-        <div class="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
-          <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">
-            Subscribe to newsletter
-          </p>
-
-          <form action="#" method="POST" class="mt-6">
-            <div>
-              <label for="email" class="sr-only">Email</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Enter your email"
-                class="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
-              />
-            </div>
-
-            <button
-              type="submit"
-              class="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700"
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
+        </nav>
       </div>
 
-      <hr class="mt-16 mb-10 border-gray-200" />
-
-      <p class="text-sm text-center text-gray-600">
-        © Copyright {{ moment().format('YYYY') }}, All Rights Reserved
-      </p>
+      <!-- Copyright -->
+      <div class="lg:col-span-3">
+        <p class="text-center text-xs text-gray-400 mt-8 lg:mt-0">
+          &copy; {{ new Date().getFullYear() }} Kennedy. All rights reserved.
+        </p>
+      </div>
     </div>
-  </section>
+  </footer>
 </template>
-
-<style scoped></style>

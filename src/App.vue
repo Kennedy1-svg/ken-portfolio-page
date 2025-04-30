@@ -4,7 +4,7 @@ import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <div class="text-green-600 font-roboto">
+  <div class="text-[#003049] font-roboto bg-lightBg">
     <RouterView />
     <Footer />
   </div>

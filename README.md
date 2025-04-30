@@ -1,41 +1,42 @@
-# Ken-portfolio
+# Chimdinma Kennedy Ohia.dev
 
-This template should help get you started developing with Vue 3 in Vite.
+A personal website showcasing my skills and projects as a software developer.
 
-## Recommended IDE Setup
+## Live Demo
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Check out the live site at [https://janedoe.dev](https://janedoe.dev).
 
-## Customize configuration
+## Built With
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+* [Vue](https://vue.dev/)
+* [Tailwind](https://styled-components.com/)
+* [Netlify](https://www.netlify.com/)
 
-## Project Setup
+## Key Features
 
-```sh
-npm install
-```
+* **Portfolio:** Highlights some of my web development projects.
+* **Stacks:** Lists the stacks I use.
+* **Contact:** Provides ways to get in touch.
 
-### Compile and Hot-Reload for Development
+## Local Setup
 
-```sh
-npm run dev
-```
+1.  Clone the repository:
+    ```sh
+    git clone https://github.com/janedoe/janedoe.dev.git
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd janedoe.dev
+    ```
+3.  Install dependencies:
+    ```sh
+    npm install
+    ```
+4.  Start the development server:
+    ```sh
+    npm start
+    ```
 
-### Compile and Minify for Production
+## Author
 
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+* Chimdinma Kennedy Ohia ([GitHub](https://github.com/Kennedy1-svg), [LinkedIn](https://www.linkedin.com/in/chimdinma-kennedy-ohia/))

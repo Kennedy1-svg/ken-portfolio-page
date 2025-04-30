@@ -1,14 +1,19 @@
+<script setup>
+import Headers from './TopicHeader.vue'
+</script>
 <template>
   <div class="border">
-    <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
+    <section class="py-10 sm:py-16 lg:py-24">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="max-w-2xl mx-auto text-center">
-          <h2 class="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl lg:text-5xl">
-            Contact us
+          <!-- <Headers topic="Contact Me" /> -->
+          <h2
+            class="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl text-primaryDark lg:text-5xl"
+          >
+            Contact Me
           </h2>
           <p class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-500">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-            consequat duis.
+            Feel free to reach out and connect.
           </p>
         </div>
 
@@ -86,7 +91,7 @@
 
           <div class="mt-6 overflow-hidden bg-white rounded-xl">
             <div class="px-6 py-12 sm:p-12">
-              <h3 class="text-3xl font-semibold text-center text-gray-900">Send us a message</h3>
+              <h3 class="text-3xl font-semibold text-center text-gray-900">Hit me up!</h3>
 
               <form action="https://formspree.io/f/mpwwgzdl" method="POST" class="mt-14">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
@@ -166,7 +171,7 @@
                   <div class="sm:col-span-2">
                     <button
                       type="submit"
-                      class="inline-flex items-center justify-center w-full px-4 py-4 mt-2 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700"
+                      class="inline-flex items-center justify-center w-full px-4 py-4 mt-2 text-base font-semibold text-white transition-all duration-200 bg-accentBlue border border-transparent rounded-md focus:outline-none hover:bg-[#669BBC] focus:bg-[#669BBC]"
                     >
                       Send
                     </button>
@@ -178,16 +183,6 @@
         </div>
       </div>
     </section>
-
-    <!-- <div>
-      <form>
-        <input type="text" placeholder="Enter name" />
-        <input type="text" placeholder="Enter Email" />
-        <input type="text" placeholder="Phone Number" />
-        <textarea type="text" placeholder="Enter name"></textarea>
-        <input type="Submit" />
-      </form>
-    </div> -->
   </div>
 </template>
 
