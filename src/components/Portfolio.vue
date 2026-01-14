@@ -3,63 +3,96 @@ import Headers from './TopicHeader.vue'
 
 const portfolioLists = [
   {
-    name: 'E-commerce App',
-    image: '/Screenshot 2025-01-12 190607.png',
-    stack: 'Frontend',
-    description: 'A simple web app that users can view products and make orders.',
-    link: 'https://kennyshops.netlify.app/'
+    name: 'Symphonii Studios',
+    stack: 'Full Stack',
+    description: 'Creative Media E-commerce Platform',
+    impact:
+      'Integrated secure payment flows and automated notifications, handling real transactions.',
+    link: 'https://symphonii-studios.netlify.app/',
+    image: '/symphonii.png'
+  },
+  {
+    name: 'Chat Application',
+    stack: 'Full Stack',
+    description: 'Real-time chat platform',
+    impact:
+      'Built messaging features with instant updates and smooth UI for real-time communication.',
+    link: 'https://ken-chat-app.netlify.app/',
+    image: '/chat-app.png'
   },
   {
     name: 'Backoffice',
-    image: '/Screenshot 2025-04-29 180027.png',
     stack: 'Frontend',
-    description:
-      "Built features that allowed administrators to easily manage and store the website's content and data, which was crucial for the site's functionality",
-    link: 'https://walurecapital.com/'
+    description: 'Admin CRM & Dashboard',
+    impact:
+      'Enabled administrators to manage content and data efficiently, improving site operations.',
+    link: 'https://walurecapital.com/',
+    image: '/Screenshot 2025-04-29 180027.png'
+  },
+  {
+    name: 'iPOS Web Application',
+    stack: 'Frontend',
+    description: 'Enterprise POS & Inventory Platform',
+    impact: 'Designed responsive interfaces and improved user workflows for inventory management.',
+    link: 'https://ipos.walurecapital.com/',
+    image: '/ipos-pic.png'
+  },
+  {
+    name: 'Alumunium Calculator App',
+    stack: 'Frontend',
+    description: 'Quantity calculator for aluminium',
+    impact: 'Automates calculation based on user input, saving time and reducing errors.',
+    link: 'https://gratefulkennedyalumcalc.netlify.app/',
+    image: '/qscalculator.png'
+  },
+  {
+    name: 'E-commerce App',
+    stack: 'Frontend',
+    description: 'Simple online store',
+    impact: 'Users can view products and make orders seamlessly.',
+    link: 'https://kennyshops.netlify.app/',
+    image: '/Screenshot 2025-01-12 190607.png'
   },
   {
     name: 'Remote Work Landing Page',
-    image: '/desktop-design (3).jpg',
     stack: 'Frontend',
-    description: 'A Landing page for remote work service',
-    link: 'https://ken-remote-work.netlify.app/'
+    description: 'Landing page for remote work service',
+    impact: 'Showcases service offerings clearly with responsive design.',
+    link: 'https://ken-remote-work.netlify.app/',
+    image: '/desktop-design (3).jpg'
   },
   {
     name: 'Fylo Landing Page',
-    image: '/desktop-preview (5).jpg',
     stack: 'Frontend',
-    description: 'A simple landing page',
-    link: 'https://kenfylo.netlify.app/'
+    description: 'Simple landing page',
+    impact: 'Clean design for marketing purposes and improved user engagement.',
+    link: 'https://kenfylo.netlify.app/',
+    image: '/desktop-preview (5).jpg'
   },
   {
     name: 'Theme-Changing Calculator',
-    image: '/desktop-preview (4).jpg',
     stack: 'Frontend',
-    description: 'A simple calculator that changes up to 3 color themes',
-    link: 'https://kencalculatorapp.netlify.app/'
+    description: 'Calculator with multiple color themes',
+    impact: 'Enhances user experience by allowing theme customization.',
+    link: 'https://kencalculatorapp.netlify.app/',
+    image: '/desktop-preview (4).jpg'
   },
   {
     name: 'Tip Calculator',
-    image: '/desktop-design-completed.jpg',
     stack: 'Frontend',
-    description:
-      'A simple app that calculates the amount each person in a group contributes to the total amount of a meal and tip too',
-    link: 'https://kentipcalc.netlify.app/'
-  },
-  {
-    name: 'Social Media Dashboard',
-    image: '/desktop-preview (3).jpg',
-    stack: 'Frontend',
-    description: 'A simple social media dashboard analytics view',
-    link: 'https://kensocialmediadb.netlify.app/'
+    description: 'Meal tip splitter',
+    impact: 'Calculates individual contributions for groups accurately and quickly.',
+    link: 'https://kentipcalc.netlify.app/',
+    image: '/desktop-design-completed.jpg'
   },
   {
     name: 'E-commerce API Documentation',
-    image: '/postman.png',
     stack: 'Backend',
-    description:
-      'A team project that I led to build a set of apis for an e-commerce platform that has 3 users- admin, vendor and users',
-    link: 'https://documenter.getpostman.com/view/37796078/2sAXjGbYsA'
+    description: 'API for multi-user e-commerce platform',
+    impact:
+      'Led team to create APIs for admin, vendor, and user roles with clear Postman documentation.',
+    link: 'https://documenter.getpostman.com/view/37796078/2sAXjGbYsA',
+    image: '/postman.png'
   }
 ]
 </script>
@@ -96,6 +129,7 @@ const portfolioLists = [
             <a :href="item.link" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>
           </h3>
           <p class="text-sm text-gray-600">{{ item.description }}</p>
+          <p class="mt-2 text-sm text-gray-500 italic">{{ item.impact }}</p>
         </div>
       </div>
     </div>

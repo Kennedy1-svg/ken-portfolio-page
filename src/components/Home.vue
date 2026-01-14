@@ -49,39 +49,38 @@ let display = () => {
             </svg>
           </button>
 
+          <!-- <div class="hidden md:flex md:items-center md:space-x-10"> -->
           <div class="hidden md:flex md:items-center md:space-x-10">
-            <a
-              href="#about"
-              title=""
+            <router-link
+              to="/about"
               class="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
               About Me
-            </a>
+            </router-link>
 
-            <a
-              href="#portfolio"
-              title=""
+            <router-link
+              to="/portfolio"
               class="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
               Portfolio
-            </a>
+            </router-link>
 
-            <a
-              href="#skills"
-              title=""
+            <router-link
+              to="/skills"
               class="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
-              Stacks</a
-            >
+              Stacks
+            </router-link>
 
-            <a
-              href="#contact"
-              title=""
+            <router-link
+              to="/contact"
               class="text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70"
             >
               Contact
-            </a>
+            </router-link>
           </div>
+
+          <!-- </div> -->
         </nav>
 
         <!-- xs to lg -->
@@ -123,7 +122,7 @@ let display = () => {
         <div class="mb-5">
           <p class="text-lg">Hi, I am</p>
           <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Chimdinma Kennedy Ohia</h1>
-          <p class="text-2xl text-primary mt-4">Software Developer</p>
+          <p class="text-2xl text-primary mt-4">Fullstack Developer</p>
         </div>
       </div>
     </main>

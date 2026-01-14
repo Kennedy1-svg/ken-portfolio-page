@@ -85,10 +85,15 @@ import SvgIcons from './SvgIcons.vue'
       <!-- External Links -->
       <div>
         <h2 class="text-sm font-semibold tracking-widest text-gray-400 uppercase mb-4 text-center">
-          External Links
+          Links
         </h2>
         <nav aria-label="External navigation">
           <ul class="space-y-3 text-center">
+            <li>
+              <router-link to="/" class="text-gray-700 hover:text-[#669BBC] transition">
+                Home
+              </router-link>
+            </li>
             <li>
               <a
                 href="https://github.com/Kennedy1-svg"

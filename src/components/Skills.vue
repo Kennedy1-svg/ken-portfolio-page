@@ -3,20 +3,35 @@ import Headers from './TopicHeader.vue'
 
 //
 const stacks = [
+  // Core Web
   { name: 'HTML', iconClass: 'devicon-html5-plain colored' },
   { name: 'CSS', iconClass: 'devicon-css3-plain colored' },
-  { name: 'Nestjs', iconClass: 'devicon-nestjs-plain colored' },
-  { name: 'Javascript', iconClass: 'devicon-javascript-plain colored' },
-  { name: 'ReactJs', iconClass: 'devicon-react-original colored' },
-  { name: 'NextJs', iconClass: 'devicon-nextjs-original colored' },
-  { name: 'VueJs', iconClass: 'devicon-vuejs-plain colored' },
-  { name: 'Tailwind', iconClass: 'devicon-tailwindcss-plain colored' },
-  { name: 'NodeJs', iconClass: 'devicon-nodejs-plain colored' },
+  { name: 'JavaScript', iconClass: 'devicon-javascript-plain colored' },
+  { name: 'TypeScript', iconClass: 'devicon-typescript-plain colored' },
+
+  // Frontend
+  { name: 'ReactJS', iconClass: 'devicon-react-original colored' },
+  { name: 'Next.js', iconClass: 'devicon-nextjs-original colored' },
+  { name: 'Vue.js', iconClass: 'devicon-vuejs-plain colored' },
+  { name: 'Nuxt.js', iconClass: 'devicon-nuxtjs-plain colored' },
+  { name: 'Tailwind CSS', iconClass: 'devicon-tailwindcss-plain colored' },
+
+  // Backend
+  { name: 'Node.js', iconClass: 'devicon-nodejs-plain colored' },
+  { name: 'Express.js', iconClass: 'devicon-express-original colored' },
+  { name: 'NestJS', iconClass: 'devicon-nestjs-plain colored' },
+  { name: 'Socket.IO', iconClass: 'devicon-socketio-original colored' },
+
+  // Database
   { name: 'MongoDB', iconClass: 'devicon-mongodb-plain colored' },
-  { name: 'Postman', iconClass: 'devicon-postman-plain colored' },
-  { name: 'ExpressJs', iconClass: 'devicon-express-original colored' },
+
+  // Dev Tools
+  { name: 'Docker', iconClass: 'devicon-docker-plain colored' },
+  { name: 'GitHub Actions', iconClass: 'devicon-github-original colored' }, // GitHub Actions doesn’t have official devicon, Git logo used
   { name: 'Git', iconClass: 'devicon-git-plain colored' },
-  { name: 'Typescript', iconClass: 'devicon-typescript-plain colored' }
+
+  { name: 'Postman', iconClass: 'devicon-postman-plain colored' },
+  { name: 'Prisma', iconClass: 'devicon-prisma-plain colored' }
 ]
 </script>
 

@@ -24,7 +24,7 @@ const data = [
   <div class="border rounded-2xl p-10 shadow-md">
     <Headers topic="About" />
     <p class="text-center text-lg max-w-3xl mx-auto leading-relaxed text-gray-700">
-      My name is Chimdinma Kennedy Ohia. I am a software developer and tech instructor. I build and
+      My name is Chimdinma Kennedy Ohia. I am a Fullstak developer and tech instructor. I build and
       contribute to web projects.
     </p>
     <p class="text-center text-xl font-semibold my-8 text-gray-700">| Explore |</p>
